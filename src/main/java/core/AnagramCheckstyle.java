@@ -3,9 +3,9 @@ package core;
 
 public class AnagramCheckstyle {
 	
-	public boolean abc(Object o) {return this == o;}
-	int x;
-	public void foo2() {x = x;}
+	//public boolean abc(Object o) {return this == o;}
+	//int x;
+	//public void foo2() {x = x;}
 	
 	public static boolean validate(String s, String t) {
         if (s.replaceAll("\\s", "").length() != t.replaceAll("\\s", "").length()) {
@@ -25,16 +25,16 @@ public class AnagramCheckstyle {
   }
 
 	
-	public void foo()  {
+	//public void foo()  {
 		
-		for (int i = 0; i < 10; i++) {
+	//	for (int i = 0; i < 10; i++) {
 			
-			for (int k = 0; k < 20; i++) {
+	//		for (int k = 0; k < 20; i++) {
 				
-				System.out.println("Hello");
-			}
-		}
-	}
+	//			System.out.println("Hello");
+	//		}
+	//	}
+	//}
 	
 	void bar() {
 		for (;true;);
