@@ -2,12 +2,11 @@ package core;
 
 
 public class AnagramCheckstyle {
-
+	/** {@inheritDoc} */
 	public static boolean validate(String s, String t) {
-        if (s.replaceAll("\\s", "").length() != t.replaceAll("\\s", "").length()) {
+      if (s.replaceAll("\\s", "").length() != t.replaceAll("\\s", "").length()) {
 
         return false;}
-        
          int value = 0;
          for (int i = 0; i < s.replaceAll("\\s", "").length(); i++) {
 
@@ -17,9 +16,12 @@ public class AnagramCheckstyle {
          }
          return value == 0;
   }
-	public static void main(String[] args) {
+	/** {@inheritDoc} */
+	public static void main(String[] args) 
 
-	    System.out.println("Debit Card and Bad Credit is anagram? - " + AnagramCheckstyle.validate("Debit Card", "Bad Credit"));
-	    System.out.println("Охренеть and Не хрена себе is anagram? - " + AnagramCheckstyle.validate("Охренеть", "Не хрена себе"));
+	    { System.out.println("Debit Card and Bad Credit is anagram? - " 
+	    + AnagramCheckstyle.validate("Debit Card", "Bad Credit"));
+	    System.out.println("Охренеть and Не хрена себе is anagram? - " 
+	    + AnagramCheckstyle.validate("Охренеть", "Не хрена себе"));
 	       }
 }
