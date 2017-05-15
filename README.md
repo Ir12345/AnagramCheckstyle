@@ -1,1 +1,1 @@
-# AnagramCheckstyle
+AnagramCheckstyle
