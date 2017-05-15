@@ -36,9 +36,9 @@ public class AnagramCheckstyle {
 	//	}
 	//}
 	
-	void bar() {
-		for (;true;);
-	}
+	//void bar() {
+	//	for (;true;);
+	//}
 	
 	public static void main(String[] args) {
 
@@ -46,19 +46,19 @@ public class AnagramCheckstyle {
 	    System.out.println("Охренеть and Не хрена себе is anagram? - " + AnagramCheckstyle.validate("Охренеть", "Не хрена себе"));
 	       }
 	
-	private String checkStrValue = null;
-		public AnagramCheckstyle() {
-			this.checkStrValue = "SomeValue";		
-		}
-	
-	private void executeSomeConditions() {
-		if ("SomeValue".equals(this.checkStrValue)) {}
-		else if ("SomeValue".equals(this.checkStrValue)) {}	
-	}
-	
-	private static void incorrectAssignmentInIfCondition() {
-		boolean value = false;
-		if (value = true) {}
-		else {}		
-	}  
+//	private String checkStrValue = null;
+//		public AnagramCheckstyle() {
+//			this.checkStrValue = "SomeValue";		
+//		}
+//	
+//	private void executeSomeConditions() {
+//		if ("SomeValue".equals(this.checkStrValue)) {}
+//		else if ("SomeValue".equals(this.checkStrValue)) {}	
+//	}
+//	
+//	private static void incorrectAssignmentInIfCondition() {
+//		boolean value = false;
+//		if (value = true) {}
+//		else {}		
+//	}  
 }
